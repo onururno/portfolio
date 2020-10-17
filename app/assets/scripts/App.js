@@ -5,3 +5,6 @@ import "lazysizes";
 if (module.hot) {
   module.hot.accept();
 }
+
+
+console.log("whats up");
