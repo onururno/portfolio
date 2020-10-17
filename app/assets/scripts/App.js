@@ -7,4 +7,3 @@ if (module.hot) {
 }
 
 
-console.log("whats up");
