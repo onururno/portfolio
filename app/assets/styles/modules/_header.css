@@ -44,10 +44,12 @@ a:hover {
 @media screen and (max-width: 1050px) {
   #logo {
     order: 1;
+    margin: 1rem 0rem;
   }
   .nav-icons {
     order: 2;
     padding: 0rem;
+    margin-top: 1rem;
   }
 
   .nav-links {
