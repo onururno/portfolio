@@ -59,10 +59,10 @@ a:hover {
 @keyframes hover {
   from {
     padding-bottom: 2rem;
-    border-bottom: 3px solid royalblue;
+    border-bottom: 3px solid $background_color;
   }
   to {
     padding-bottom: 1rem;
-    border-bottom: 3px solid royalblue;
+    border-bottom: 3px solid $mainBlue;
   }
 }
