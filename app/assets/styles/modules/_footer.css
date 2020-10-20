@@ -1,0 +1,43 @@
+footer {
+  .info {
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-bottom: 2.5rem;
+  }
+
+  p {
+    padding: 0.5rem;
+    line-height: 1.5;
+    font-size: 2rem;
+    color: #5a6066;
+    span:hover {
+      color: $mainBlue;
+      border-bottom: 3px solid $mainBlue;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  footer {
+    .info {
+      min-height: 35vh;
+    }
+    .info h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .info p {
+      font-size: 1.2rem;
+    }
+  }
+}

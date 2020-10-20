@@ -1,12 +1,16 @@
 #main-head {
+  min-height: 10vh;
+
   nav {
-    width: 90%;
-    margin: auto;
+    background-color: $background_color;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    min-height: 5vh;
+    align-items: flex-start;
     padding: 0.2rem 0rem;
+    position: fixed;
+    z-index: 2;
+    height: 8.5rem;
   }
   .nav-links {
     display: flex;
@@ -14,6 +18,7 @@
     flex: 1 1 15rem;
     justify-content: space-around;
     padding-right: 10rem;
+    margin: 0.5rem 0rem;
   }
 
   .nav-links li {
@@ -27,12 +32,14 @@
   #logo {
     flex: 1 1 15rem;
     text-align: center;
+    margin: 0.5rem 0rem;
   }
   .nav-icons {
     flex: 1 1 15rem;
     display: flex;
     justify-content: space-around;
     padding-left: 20rem;
+    margin: 2rem 0rem;
   }
   .nav-icons img {
     padding: 0rem 2rem;
@@ -41,6 +48,9 @@
 
 @media screen and (max-width: 1050px) {
   #main-head {
+    nav {
+      position: relative;
+    }
     #logo {
       order: 1;
       margin: 1rem 0rem;
