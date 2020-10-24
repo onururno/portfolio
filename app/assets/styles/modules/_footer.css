@@ -30,14 +30,16 @@ footer {
 @media screen and (max-width: 1050px) {
   footer {
     .info {
-      min-height: 35vh;
+      min-height: 30vh;
+      width: 80%;
+      margin: auto;
     }
     .info h2 {
-      font-size: 2.5rem;
+      font-size: 1.7rem;
       margin-bottom: 1rem;
     }
     .info p {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 }

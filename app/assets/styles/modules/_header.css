@@ -1,6 +1,10 @@
 #main-head {
   min-height: 10vh;
 
+  .menu-icon {
+    display: none;
+  }
+
   nav {
     background-color: $background_color;
     width: 100%;
@@ -10,7 +14,6 @@
     padding: 0.2rem 0rem;
     position: fixed;
     z-index: 2;
-    height: 8.5rem;
   }
   .nav-links {
     display: flex;
@@ -33,6 +36,7 @@
     flex: 1 1 25rem;
     text-align: center;
     margin: 0.5rem 0rem;
+    font-size: 4.5rem;
   }
   .nav-icons {
     flex: 1 1 20rem;
@@ -48,6 +52,13 @@
 
 @media screen and (max-width: 1050px) {
   #main-head {
+    .menu-icon {
+      display: inline;
+      position: fixed;
+      bottom: 1rem;
+      right: 2rem;
+      z-index: 2;
+    }
     nav {
       position: relative;
     }
@@ -59,6 +70,7 @@
       order: 2;
       padding: 0rem;
       margin-top: 1rem;
+      margin-bottom: 0rem;
     }
 
     .nav-links {
