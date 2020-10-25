@@ -19,9 +19,12 @@ footer {
     line-height: 1.5;
     font-size: 2rem;
     color: #5a6066;
-    span:hover {
+
+    span {
       color: $mainBlue;
-      border-bottom: 3px solid $mainBlue;
+    }
+    span:hover {
+      animation: hoverheader 0.3s ease-in-out forwards;
       cursor: pointer;
     }
   }
