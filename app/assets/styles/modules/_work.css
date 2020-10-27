@@ -16,11 +16,11 @@
     width: 80%;
     margin: 10rem;
     border-radius: 3rem;
-    animation: backWorkHover 0.75s forwards;
+    animation: backWorkHover 0.5s forwards;
     cursor: pointer;
   }
   img:hover {
-    animation: workHover 0.75s ease-in-out forwards;
+    animation: workHover 0.5s ease-in-out forwards;
   }
 }
 
