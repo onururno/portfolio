@@ -22,14 +22,18 @@
     justify-content: space-around;
     padding-right: 10rem;
     margin: 0.5rem 0rem;
-  }
 
-  .nav-links li {
-    padding: 2rem;
-  }
+    li {
+      padding: 2rem;
+    }
 
-  .nav-links a:hover {
-    animation: hoverheader 0.3s ease-in-out forwards;
+    a {
+      animation: backHoverheader 0.3s ease-in-out forwards;
+    }
+
+    a:hover {
+      animation: hoverheader 0.3s ease-in-out forwards;
+    }
   }
 
   #logo {
@@ -48,10 +52,11 @@
     justify-content: space-around;
     padding-left: 20rem;
     margin: 2rem 0rem;
-  }
-  .nav-icons img {
-    padding: 0rem 2rem;
-    cursor: pointer;
+
+    img {
+      padding: 0rem 2rem;
+      cursor: pointer;
+    }
   }
 }
 
