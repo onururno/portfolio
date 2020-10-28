@@ -40,6 +40,7 @@
 @media screen and (max-width: 1050px) {
   #aboutMe {
     flex-direction: column;
+
     .aboutMe-portrait {
       margin: 2rem 0rem;
     }
