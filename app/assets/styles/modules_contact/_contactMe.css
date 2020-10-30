@@ -1,0 +1,146 @@
+#contactMe {
+  .big-contact-container {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-container {
+      min-height: 70vh;
+      background: linear-gradient(
+        180deg,
+        $background_color,
+        $background_color,
+        #b6c7d8
+      );
+      border-radius: 2rem;
+      padding: 15rem;
+      width: 80%;
+      margin: auto;
+
+      .name-email-container {
+        display: flex;
+        flex-wrap: wrap;
+        .form-name {
+          flex: 40rem;
+          display: flex;
+          flex-direction: column;
+          margin-right: 1rem;
+          label {
+            align-self: center;
+            margin-bottom: 0.5rem;
+          }
+          input {
+            border-radius: 1rem;
+            border: none;
+            border: 2px solid $mainBlue;
+          }
+        }
+        .form-email {
+          flex: 40rem;
+          display: flex;
+          flex-direction: column;
+          margin-left: 1rem;
+          label {
+            align-self: center;
+            margin-bottom: 0.5rem;
+          }
+          input {
+            border-radius: 1rem;
+            border: none;
+            border: 2px solid $mainBlue;
+          }
+        }
+      }
+      .form-message {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 0rem;
+        label {
+          margin-bottom: 0.5rem;
+        }
+        textarea {
+          min-width: 100%;
+          height: 20rem;
+          font-size: 2rem;
+          border-radius: 1rem;
+          border: none;
+          border: 2px solid $mainBlue;
+        }
+      }
+
+      .form-btn {
+        margin-top: 2rem;
+        button {
+          padding: 1rem;
+          background-color: $mainBlue;
+          border: none;
+          border-radius: 1rem;
+          width: 100%;
+          border: 2px solid white;
+          color: white;
+          cursor: pointer;
+        }
+        button:hover {
+          background-color: rgb(255, 255, 255);
+          border: 2px solid $mainBlue;
+          color: black;
+          transition: 0.1s;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #contactMe {
+    .big-contact-container {
+      min-height: 70vh;
+      .contact-container {
+        padding: 0rem;
+        min-height: 60vh;
+        min-width: 90%;
+        .name-email-container {
+          text-align: center;
+
+          .form-name {
+            margin-right: 0rem;
+
+            label {
+              align-self: center;
+              margin-bottom: 0.5rem;
+            }
+            input {
+              border-radius: 1rem;
+              border: none;
+              border: 2px solid $mainBlue;
+              padding: 0.8rem 0rem;
+            }
+          }
+          .form-email {
+            margin-top: 2rem;
+            margin-left: 0rem;
+            label {
+              align-self: center;
+              margin-bottom: 0.5rem;
+            }
+            input {
+              border-radius: 1rem;
+              border: none;
+              border: 2px solid $mainBlue;
+              padding: 0.8rem 0rem;
+            }
+          }
+        }
+        .form-message {
+          textarea {
+            width: 0%;
+            height: 0rem;
+            padding: 5rem 15rem;
+          }
+        }
+      }
+    }
+  }
+}
