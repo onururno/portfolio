@@ -5,7 +5,14 @@
   label {
     font-size: 1.4rem;
   }
+  input {
+    font-size: 1.4rem;
+  }
+
   button {
+    font-size: 1.4rem;
+  }
+  a {
     font-size: 1.4rem;
   }
 }

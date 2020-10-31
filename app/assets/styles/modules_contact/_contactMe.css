@@ -31,6 +31,7 @@
             margin-bottom: 0.5rem;
           }
           input {
+            padding: 1.2rem 2rem;
             border-radius: 1rem;
             border: none;
             border: 2px solid $mainBlue;
@@ -46,6 +47,7 @@
             margin-bottom: 0.5rem;
           }
           input {
+            padding: 1.2rem 2rem;
             border-radius: 1rem;
             border: none;
             border: 2px solid $mainBlue;
@@ -67,6 +69,7 @@
           border-radius: 1rem;
           border: none;
           border: 2px solid $mainBlue;
+          padding: 1.2rem 2rem;
         }
       }
 
@@ -115,7 +118,7 @@
               border-radius: 1rem;
               border: none;
               border: 2px solid $mainBlue;
-              padding: 0.8rem 0rem;
+              padding: 1.2rem 2rem;
             }
           }
           .form-email {
@@ -129,15 +132,15 @@
               border-radius: 1rem;
               border: none;
               border: 2px solid $mainBlue;
-              padding: 0.8rem 0rem;
+              padding: 1.2rem 2rem;
             }
           }
         }
         .form-message {
           textarea {
             width: 0%;
-            height: 0rem;
-            padding: 5rem 15rem;
+            height: 10rem;
+            padding: 2rem 2rem;
           }
         }
       }
