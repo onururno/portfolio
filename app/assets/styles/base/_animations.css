@@ -30,23 +30,7 @@
 }
 
 @keyframes hoverheader {
-  from {
-    padding-bottom: 2rem;
-    border-bottom: 3px solid $background_color;
-  }
-  to {
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid $mainBlue;
-  }
 }
 
 @keyframes backHoverheader {
-  from {
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid $mainBlue;
-  }
-  to {
-    padding-bottom: 2rem;
-    border-bottom: 3px solid $background_color;
-  }
 }

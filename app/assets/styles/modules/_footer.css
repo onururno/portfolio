@@ -23,11 +23,24 @@ footer {
 
     span {
       color: $mainBlue;
-      animation: backHoverheader 0.3s ease-in-out forwards;
+      position: relative;
     }
-    span:hover {
-      animation: hoverheader 0.3s ease-in-out forwards;
+    span::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 4px;
+      width: 100%;
+      height: 0.3rem;
+      background: $mainBlue;
+      z-index: -2;
+      transition: 250ms ease-in;
+    }
+
+    span:hover::after {
       cursor: pointer;
+      height: 1.2rem;
+      z-index: -2;
     }
   }
 }

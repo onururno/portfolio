@@ -1,5 +1,6 @@
-$background_color: #d3dfeb;
-$mainBlue: rgb(65, 56, 105);
+$background_color: #d3dbeb;
+$mainBlue: rgb(115, 71, 219);
+$secondBlue: rgb(58, 48, 82);
 
 html {
   font-size: 62.5%;
@@ -10,7 +11,7 @@ html {
   $header3: calc(2rem + 1vw);
   $header4: calc(1.4rem + 1vw);
   $text: calc(0.3rem + 1vw);
-  $big: calc(7.5rem + 1vw);
+  $big: calc(6rem + 2vw);
 
   scroll-behavior: smooth; /*slow down the animation for scrolling*/
 }
