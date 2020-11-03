@@ -34,7 +34,7 @@
             padding: 1.2rem 2rem;
             border-radius: 1rem;
             border: none;
-            border: 2px solid $mainBlue;
+            border: 2px solid $secondBlue;
           }
         }
         .form-email {
@@ -50,7 +50,7 @@
             padding: 1.2rem 2rem;
             border-radius: 1rem;
             border: none;
-            border: 2px solid $mainBlue;
+            border: 2px solid $secondBlue;
           }
         }
       }
@@ -68,7 +68,7 @@
           font-size: 2rem;
           border-radius: 1rem;
           border: none;
-          border: 2px solid $mainBlue;
+          border: 2px solid $secondBlue;
           padding: 1.2rem 2rem;
         }
       }
@@ -77,7 +77,7 @@
         margin-top: 2rem;
         button {
           padding: 1rem;
-          background-color: $mainBlue;
+          background-color: $secondBlue;
           border: none;
           border-radius: 1rem;
           width: 100%;
@@ -87,7 +87,7 @@
         }
         button:hover {
           background-color: rgb(255, 255, 255);
-          border: 2px solid $mainBlue;
+          border: 2px solid $secondBlue;
           color: black;
           transition: 0.1s;
         }
@@ -117,7 +117,7 @@
             input {
               border-radius: 1rem;
               border: none;
-              border: 2px solid $mainBlue;
+              border: 2px solid $secondBlue;
               padding: 1.2rem 2rem;
             }
           }
@@ -131,7 +131,7 @@
             input {
               border-radius: 1rem;
               border: none;
-              border: 2px solid $mainBlue;
+              border: 2px solid $secondBlue;
               padding: 1.2rem 2rem;
             }
           }
