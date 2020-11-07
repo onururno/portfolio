@@ -96,12 +96,13 @@
 @media screen and (max-width: 1050px) {
   #contactMe {
     .big-contact-container {
-      min-height: 70vh;
+      min-height: 85vh;
+      background-color: $background_color;
       .contact-container {
         padding: 3rem 0rem;
-        min-height: 60vh;
         min-width: 100%;
         border-radius: 0rem;
+        margin: 0rem;
         .name-email-container {
           .form-name {
             margin-right: 0rem;
