@@ -7,12 +7,7 @@
 
     .contact-container {
       min-height: 70vh;
-      background: linear-gradient(
-        180deg,
-        $background_color,
-        $background_color,
-        #b6c7d8
-      );
+      background-color: $background_color;
       border-radius: 2rem;
       padding: 15rem;
       width: 80%;
@@ -27,8 +22,9 @@
           flex-direction: column;
           margin-right: 1rem;
           label {
-            align-self: center;
+            align-self: left;
             margin-bottom: 0.5rem;
+            padding-left: 1rem;
           }
           input {
             padding: 1.2rem 2rem;
@@ -43,8 +39,9 @@
           flex-direction: column;
           margin-left: 1rem;
           label {
-            align-self: center;
+            align-self: left;
             margin-bottom: 0.5rem;
+            padding-left: 1rem;
           }
           input {
             padding: 1.2rem 2rem;
@@ -77,7 +74,7 @@
         margin-top: 2rem;
         button {
           padding: 1rem;
-          background-color: $secondBlue;
+          background-color: $mainBlue;
           border: none;
           border-radius: 1rem;
           width: 100%;
@@ -101,17 +98,14 @@
     .big-contact-container {
       min-height: 70vh;
       .contact-container {
-        padding: 0rem;
+        padding: 3rem 0rem;
         min-height: 60vh;
-        min-width: 90%;
+        min-width: 100%;
+        border-radius: 0rem;
         .name-email-container {
-          text-align: center;
-
           .form-name {
             margin-right: 0rem;
-
             label {
-              align-self: center;
               margin-bottom: 0.5rem;
             }
             input {
@@ -125,7 +119,6 @@
             margin-top: 2rem;
             margin-left: 0rem;
             label {
-              align-self: center;
               margin-bottom: 0.5rem;
             }
             input {

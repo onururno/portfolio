@@ -1,6 +1,13 @@
 #work {
   min-height: 100vh;
-  background-color: $background_color;
+  background: linear-gradient(
+    180deg,
+    $background_color,
+    white,
+    white,
+    white,
+    white
+  );
 
   .work-examples {
     display: flex;

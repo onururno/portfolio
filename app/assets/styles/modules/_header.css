@@ -1,19 +1,19 @@
 #main-head {
-  min-height: 10vh;
+  min-height: 8vh;
+  background-color: white;
 
   .burger {
     display: none;
   }
 
   nav {
-    background-color: $background_color;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    padding: 0.2rem 0rem;
     position: fixed;
+    background-color: white;
     z-index: 2;
+    min-height: 8vh;
 
     .nav-links {
       display: flex;
@@ -49,15 +49,6 @@
         transform-origin: left;
       }
     }
-    .logo-style {
-      position: relative;
-      color: $mainBlue;
-      z-index: -2;
-    }
-    .logo-style::after {
-      /*you'll need webkit in order to make the animation*/
-      position: absolute;
-    }
   }
 
   #logo {
@@ -76,6 +67,7 @@
     justify-content: space-around;
     padding-left: 20rem;
     margin: 2rem 0rem;
+    align-items: center;
 
     img {
       padding: 0rem 2rem;
@@ -86,6 +78,7 @@
 
 @media screen and (max-width: 1050px) {
   #main-head {
+    min-height: 18vh;
     .burger {
       position: fixed;
       bottom: 2rem;
@@ -112,7 +105,7 @@
     }
     .burger span {
       padding: 0.2rem 1.5rem;
-      background: $secondBlue;
+      background: $mainBlue;
       display: block;
       margin: 0.5rem 0rem;
       transition: all 1s ease;
@@ -125,7 +118,7 @@
       margin-left: 3rem;
     }
     .nav-links {
-      background: $secondBlue;
+      background: $mainBlue;
       width: 100%;
       height: 100%;
       position: fixed;
@@ -173,6 +166,9 @@
       #logo {
         order: 1;
         margin: 1rem 0rem;
+        a {
+          font-size: 4rem;
+        }
       }
       .nav-icons {
         order: 2;

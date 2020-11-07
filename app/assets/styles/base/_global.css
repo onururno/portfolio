@@ -8,8 +8,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  animation: opening 1.25s ease-in-out;
-  background-color: $background_color;
+  animation: opening 0.5s ease-in-out;
+  background-color: $thirdBlue;
 }
 h1 {
   font-size: $header1;

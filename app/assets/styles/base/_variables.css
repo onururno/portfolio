@@ -1,6 +1,7 @@
-$background_color: #d3dbeb;
-$mainBlue: rgb(115, 71, 219);
-$secondBlue: rgb(58, 48, 82);
+$background_color: #caf0f8;
+$mainBlue: #023e8a;
+$secondBlue: #03045e;
+$thirdBlue: #0077b6;
 
 html {
   font-size: 62.5%;
