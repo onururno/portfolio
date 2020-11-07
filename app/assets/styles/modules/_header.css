@@ -78,7 +78,6 @@
 
 @media screen and (max-width: 1050px) {
   #main-head {
-    min-height: 18vh;
     .burger {
       position: fixed;
       bottom: 2rem;
@@ -146,7 +145,6 @@
 
     nav {
       position: relative;
-
       .nav-links {
         .work {
           order: 3;
@@ -158,11 +156,9 @@
           order: 2;
         }
       }
-
       .nav-links a {
         animation: none;
       }
-
       #logo {
         order: 1;
         margin: 1rem 0rem;
@@ -173,6 +169,7 @@
       .nav-icons {
         order: 2;
         padding: 0rem;
+        padding-bottom: 1.5rem;
         margin-top: 1rem;
         margin-bottom: 0rem;
       }
