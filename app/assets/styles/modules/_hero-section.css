@@ -17,6 +17,7 @@
 
     h1 {
       font-size: $big;
+      padding: 0rem 5rem;
     }
     p {
       padding: 0.5rem;
@@ -25,8 +26,7 @@
   }
   .hero-presentation {
     flex: 1 1 50rem;
-    padding: 0rem 6rem 6rem 6rem;
-    background-color: $background_color;
+    padding: 0rem 7rem 7rem 7rem;
   }
   .hero-presentation img {
     object-fit: cover;
@@ -51,6 +51,7 @@
         font-size: 3rem;
         margin-bottom: 1.5rem;
         margin-top: 1rem;
+        padding: 0rem 3rem;
       }
       p {
         font-size: 1.2rem;

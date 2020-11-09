@@ -12,7 +12,7 @@ html {
   $header3: calc(2rem + 1vw);
   $header4: calc(1.4rem + 1vw);
   $text: calc(0.3rem + 1vw);
-  $big: calc(6rem + 2vw);
+  $big: calc(6.5rem + 1vw);
 
   scroll-behavior: smooth; /*slow down the animation for scrolling*/
 }
