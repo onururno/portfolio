@@ -7,7 +7,6 @@
   background-color: $background_color;
 
   .hero-intro {
-    padding: 0rem 20rem;
     flex: 2 1 40rem;
     display: flex;
     flex-direction: column;
@@ -15,13 +14,24 @@
     justify-content: center;
     text-align: center;
 
-    h1 {
-      font-size: $big;
-      padding: 0rem 5rem;
+    .h1-container {
+      h1 {
+        font-size: $big;
+        margin: 0rem;
+      }
+      .h1-onur {
+        margin-bottom: 0.5rem;
+      }
+      .h1-design {
+        margin-bottom: 2.5rem;
+      }
     }
-    p {
-      padding: 0.5rem;
-      line-height: 1.5;
+    .text-container {
+      margin-top: 1rem;
+
+      .text-frontend {
+        margin-bottom: 0.5rem;
+      }
     }
   }
   .hero-presentation {
@@ -46,15 +56,21 @@
       margin: 0rem 3rem 3rem 3rem;
     }
     .hero-intro {
-      padding: 0rem 5rem;
-      h1 {
-        font-size: 3rem;
-        margin-bottom: 1.5rem;
-        margin-top: 1rem;
-        padding: 0rem 3rem;
+      padding: 0rem;
+      margin-top: 1rem;
+      .h1-container {
+        h1 {
+          font-size: 3rem;
+        }
+        .h1-design {
+          margin-bottom: 1rem;
+        }
       }
-      p {
-        font-size: 1.2rem;
+      .text-container {
+        margin-bottom: 2rem;
+        p {
+          font-size: 1.2rem;
+        }
       }
     }
   }
