@@ -26,6 +26,7 @@ footer {
       position: relative;
       a {
         color: #e3e7eb;
+        font-size: 2rem;
       }
     }
     span::after {
@@ -54,13 +55,20 @@ footer {
       min-height: 35vh;
       width: 80%;
       margin: auto;
-    }
-    .info h2 {
-      font-size: 2.2rem;
-      margin-bottom: 1.2rem;
-    }
-    .info p {
-      font-size: 1.2rem;
+
+      h2 {
+        font-size: 2.2rem;
+        margin-bottom: 1.2rem;
+      }
+      p {
+        font-size: 1.2rem;
+        span {
+          a {
+            font-size: 1.2rem;
+            border-bottom: 2px $mainBlue solid;
+          }
+        }
+      }
     }
   }
 }
