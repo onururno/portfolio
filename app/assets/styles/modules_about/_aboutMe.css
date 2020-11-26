@@ -10,21 +10,24 @@
     padding-top: 5rem;
 
     .aboutMe-portrait {
-      flex: 1 1 50rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1 1 30rem;
       align-self: flex-end;
       background: linear-gradient(180deg, $background_color, white, white);
       border-radius: 4rem;
-      padding: 10rem;
+      padding: 5rem 5rem;
 
       img {
-        height: 100%;
-        width: 100%;
+        height: auto;
+        width: 40rem;
         object-fit: cover;
       }
     }
 
     .aboutMe-text {
-      flex: 1 1 50rem;
+      flex: 1 1 30rem;
       align-self: flex-end;
       margin-left: 2rem;
       h3 {
@@ -37,6 +40,114 @@
         line-height: 1.5;
         font-size: 2rem;
         color: #5a6066;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1660px) {
+  #aboutMe {
+    .about-container {
+      .aboutMe-portrait {
+        align-self: center;
+        img {
+          width: 35rem;
+        }
+      }
+      .aboutMe-text {
+        align-self: center;
+        h3 {
+          font-size: 3rem;
+        }
+        p {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1466px) {
+  #aboutMe {
+    .about-container {
+      min-height: 50vh;
+      .aboutMe-portrait {
+        img {
+          width: 30rem;
+        }
+      }
+      .aboutMe-text {
+        h3 {
+          font-size: 3rem;
+        }
+        p {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1308px) {
+  #aboutMe {
+    .about-container {
+      .aboutMe-portrait {
+        img {
+          width: 30rem;
+        }
+      }
+      .aboutMe-text {
+        h3 {
+          font-size: 2.6rem;
+          margin-bottom: 3rem;
+        }
+        p {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1208px) {
+  #aboutMe {
+    .about-container {
+      .aboutMe-portrait {
+        img {
+          width: 26rem;
+        }
+      }
+      .aboutMe-text {
+        h3 {
+          font-size: 2.4rem;
+          margin-bottom: 3rem;
+        }
+        p {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1094px) {
+  #aboutMe {
+    .about-container {
+      .aboutMe-portrait {
+        align-self: flex-start;
+        img {
+          width: 21rem;
+        }
+      }
+      .aboutMe-text {
+        align-self: flex-start;
+        h3 {
+          font-size: 2.1rem;
+          margin-bottom: 3rem;
+        }
+        p {
+          font-size: 1.2rem;
+        }
       }
     }
   }
