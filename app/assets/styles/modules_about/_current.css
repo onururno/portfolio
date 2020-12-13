@@ -35,13 +35,59 @@
           display: flex;
           align-items: center;
           margin-bottom: 3rem;
-
+          position: relative;
           p {
             margin-left: 1rem;
+          }
+          a {
+            .icon {
+              position: relative;
+              height: 5rem;
+              width: 5rem;
+            }
           }
         }
       }
     }
+  }
+}
+.icon::before,
+.icon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+.icon::before {
+  content: "\f04b";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  color: white;
+  font-size: 1.5rem;
+  background: #f00;
+  display: grid;
+  place-items: center;
+  z-index: 10;
+}
+
+.icon:hover::after {
+  background: #f00;
+  z-index: 1;
+  animation: pulse 1000ms infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.75;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
   }
 }
 
