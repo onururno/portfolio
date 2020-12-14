@@ -82,7 +82,7 @@
       position: fixed;
       bottom: 2rem;
       right: 2rem;
-      z-index: 5;
+      z-index: 10;
       display: block;
       cursor: pointer;
       background: white;
@@ -94,7 +94,7 @@
       position: fixed;
       bottom: 2rem;
       right: 2rem;
-      z-index: 5;
+      z-index: 10;
       display: block;
       cursor: pointer;
       background: white;
