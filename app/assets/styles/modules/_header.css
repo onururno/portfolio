@@ -146,6 +146,7 @@
     nav {
       position: relative;
       .nav-links {
+        .burger-work,
         .work {
           order: 3;
         }
