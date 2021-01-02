@@ -1,0 +1,59 @@
+.preload {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #77b3d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s ease;
+  .cloud1,
+  .cloud2,
+  .cloud3 {
+    position: absolute;
+    right: 0;
+  }
+
+  .cloud1 {
+    height: 50px;
+    top: 25%;
+    transform: translate(100%, -25%);
+    animation: clouds 10s linear infinite;
+  }
+
+  .cloud2 {
+    height: 150px;
+    top: 55%;
+    transform: translate(100%, -55%);
+    animation: clouds 4s linear infinite 2s;
+    z-index: -1;
+  }
+
+  .cloud3 {
+    height: 400px;
+    top: 140%;
+    transform: translate(100%, -140%);
+    animation: clouds 1.5s linear infinite 1s;
+  }
+
+  .airplane {
+    height: 200px;
+    animation: airplane 1s ease infinite alternate;
+  }
+
+  h3 {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-75%);
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+}
+
+.preload-finish {
+  opacity: 0;
+  pointer-events: none;
+}

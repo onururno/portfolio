@@ -40,6 +40,7 @@
     margin-top: 2.5rem;
 
     img {
+      animation: heroShake 2s ease-in infinite alternate 1s;
       object-fit: cover;
       width: 65rem;
       height: auto;
